@@ -1,4 +1,8 @@
 <keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
+  <action id="ChangesView.Diff" />
+  <action id="CompareTwoFiles" />
+  <action id="Diff.ShowDiff" />
+  <action id="EditorDuplicate" />
   <action id="EditorTextEnd">
     <keyboard-shortcut first-keystroke="meta DOWN" />
   </action>
@@ -13,6 +17,7 @@
     <keyboard-shortcut first-keystroke="shift meta HOME" />
     <keyboard-shortcut first-keystroke="shift meta UP" />
   </action>
+  <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift meta P" />
@@ -31,6 +36,10 @@
   <action id="ParameterInfo" />
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="meta D" />
+  </action>
+  <action id="SendEOF" />
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt HOME" />
     <keyboard-shortcut first-keystroke="meta alt N" />
@@ -50,4 +59,5 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="control alt UP" />
   </action>
+  <action id="openAssertEqualsDiff" />
 </keymap>
