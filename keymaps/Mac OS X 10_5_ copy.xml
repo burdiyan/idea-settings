@@ -2,7 +2,10 @@
   <action id="ChangesView.Diff" />
   <action id="CompareTwoFiles" />
   <action id="Diff.ShowDiff" />
-  <action id="EditorDuplicate" />
+  <action id="Diff.ShowSettingsPopup" />
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="shift meta D" />
+  </action>
   <action id="EditorTextEnd">
     <keyboard-shortcut first-keystroke="meta DOWN" />
   </action>
