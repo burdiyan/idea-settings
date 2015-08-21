@@ -22,6 +22,9 @@
   </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="meta R" />
+  </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift meta P" />
   </action>
@@ -37,6 +40,9 @@
     <keyboard-shortcut first-keystroke="control meta UP" />
   </action>
   <action id="ParameterInfo" />
+  <action id="Refresh" />
+  <action id="Replace" />
+  <action id="Rerun" />
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
   <action id="SelectNextOccurrence">
@@ -62,5 +68,6 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="control alt UP" />
   </action>
+  <action id="UsageView.Rerun" />
   <action id="openAssertEqualsDiff" />
 </keymap>
