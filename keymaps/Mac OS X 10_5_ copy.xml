@@ -3,6 +3,9 @@
   <action id="CompareTwoFiles" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="meta L" />
+  </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift meta D" />
   </action>
@@ -31,6 +34,7 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="meta P" />
   </action>
+  <action id="GotoLine" />
   <action id="GotoRelated" />
   <action id="Inline" />
   <action id="MoveStatementDown">
